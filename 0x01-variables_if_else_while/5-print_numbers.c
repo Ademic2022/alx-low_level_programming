@@ -7,7 +7,7 @@ int main(void)
 {
 	int a = 0;
 
-	while (a < 9)
+	while (a <= 9)
 	{
 		printf("%d\n", a);
 		a++;

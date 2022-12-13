@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints alphabet
- *
- * Return: Always 0.
-*/
+ * print_alphabet_x10 - prints alphabet 10 times
+ */
 
 void print_alphabet_x10(void)
 {
@@ -13,7 +11,7 @@ void print_alphabet_x10(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		for (a='a'; a <= 'z'; a++)
+		for (a = 'a'; a <= 'z'; a++)
 		{
 			_putchar(a);
 		}
